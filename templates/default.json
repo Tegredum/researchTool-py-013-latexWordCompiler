@@ -1,0 +1,180 @@
+{
+	"version": 1,
+	"reference_docx": null,
+	"page": {
+		"width_cm": 21,
+		"height_cm": 29.7,
+		"margin_top_cm": 2.54,
+		"margin_bottom_cm": 2.54,
+		"margin_left_cm": 2.54,
+		"margin_right_cm": 2.54
+	},
+	"styles": {
+		"body": {
+			"name": "Normal",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 12,
+			"bold": false,
+			"alignment": "justify",
+			"space_before_pt": 0,
+			"space_after_pt": 0,
+			"line_spacing": 1.5,
+			"first_line_indent_pt": 24,
+			"keep_with_next": false
+		},
+		"title": {
+			"name": "Title",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 18,
+			"bold": true,
+			"alignment": "center",
+			"space_before_pt": 0,
+			"space_after_pt": 12,
+			"line_spacing": 1.5,
+			"first_line_indent_pt": 0,
+			"keep_with_next": true
+		},
+		"heading1": {
+			"name": "Heading 1",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 16,
+			"bold": true,
+			"alignment": "left",
+			"space_before_pt": 12,
+			"space_after_pt": 6,
+			"line_spacing": 1.5,
+			"first_line_indent_pt": 0,
+			"keep_with_next": true
+		},
+		"heading2": {
+			"name": "Heading 2",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 14,
+			"bold": true,
+			"alignment": "left",
+			"space_before_pt": 10,
+			"space_after_pt": 6,
+			"line_spacing": 1.5,
+			"first_line_indent_pt": 0,
+			"keep_with_next": true
+		},
+		"heading3": {
+			"name": "Heading 3",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 12,
+			"bold": true,
+			"alignment": "left",
+			"space_before_pt": 8,
+			"space_after_pt": 4,
+			"line_spacing": 1.5,
+			"first_line_indent_pt": 0,
+			"keep_with_next": true
+		},
+		"caption": {
+			"name": "Caption",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 10.5,
+			"bold": false,
+			"alignment": "center",
+			"space_before_pt": 0,
+			"space_after_pt": 0,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": false
+		},
+		"figure_caption": {
+			"name": "Figure Caption",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 10.5,
+			"bold": false,
+			"alignment": "center",
+			"space_before_pt": 0,
+			"space_after_pt": 6,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": false
+		},
+		"table_caption": {
+			"name": "Table Caption",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 10.5,
+			"bold": false,
+			"alignment": "center",
+			"space_before_pt": 6,
+			"space_after_pt": 0,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": true
+		},
+		"table": {
+			"name": "Table Text",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 10.5,
+			"bold": false,
+			"alignment": "left",
+			"space_before_pt": 0,
+			"space_after_pt": 0,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": false
+		},
+		"figure": {
+			"name": "Figure",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 12,
+			"bold": false,
+			"alignment": "center",
+			"space_before_pt": 0,
+			"space_after_pt": 0,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": true
+		},
+		"equation": {
+			"name": "Equation",
+			"latin_font": "Times New Roman",
+			"east_asia_font": "宋体",
+			"size_pt": 12,
+			"bold": false,
+			"alignment": "left",
+			"space_before_pt": 6,
+			"space_after_pt": 6,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": false
+		},
+		"code": {
+			"name": "Source Code",
+			"latin_font": "Consolas",
+			"east_asia_font": "宋体",
+			"size_pt": 10,
+			"bold": false,
+			"alignment": "left",
+			"space_before_pt": 0,
+			"space_after_pt": 0,
+			"line_spacing": 1,
+			"first_line_indent_pt": 0,
+			"keep_with_next": false
+		}
+	},
+	"headings": {
+		"numbered": true
+	},
+	"captions": {
+		"figure_label": "图",
+		"table_label": "表"
+	},
+	"math": {
+		"timeout_seconds": 180
+	}
+}

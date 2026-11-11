@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latex2word-workflow"
+version = "0.1.0"
+description = "Convert LaTeX to styled Word documents with native MathType automation"
+requires-python = ">=3.10"
+dependencies = ["lxml>=4.9,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<10"]
+
+[project.scripts]
+latex2word = "latex2word.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+latex2word = ["scripts/*.ps1", "scripts/*.psm1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
